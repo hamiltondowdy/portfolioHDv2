@@ -70,7 +70,7 @@ header nav a {
 main {
     margin-top: 20px;
     margin-bottom: 45px;
-  }
+}
 
 footer {
     background: #E2DDE9;
@@ -88,8 +88,58 @@ footer h2 {
 footer div {
     line-height: 1.5;
     text-align: right;
-  }
+}
 
 footer a {
     color: #708090;
+}
+
+.hero {
+    background:rgba(255, 255, 255, 0.5);
+    background-image: url(./img/3.jpeg);
+    background-size: cover;
+    background-position: center;
+    min-height: 300px;
+    padding: 2% 6%;
+    min-width: 90%;
+    border-bottom: 4px;
+    border-bottom-color: #708090;
+    border-bottom-width: 85%;
+}
+  
+  
+.pfp:hover {
+    opacity: 0; 
+}
+
+.gif {
+    position: absolute;
+    width: 280px;
+    height: 265px;
+    margin-bottom: 2px;
+    padding-left: 5px;
+    border-radius: 15px;
+    vertical-align: bottom;
   }
+  
+.pfp {
+    position:relative;
+    width: 280px;
+    margin-bottom: 2px;
+    padding-left: 5px;
+    border-radius: 15px;
+    vertical-align: bottom;
+  }
+  
+.hero h2 {
+    text-align: right;
+    align-items: right;
+    position: relative;
+    margin: 0.5%;
+    color: #fff;
+    border-bottom: 4px solid #fff;
+    font-size: 60px;
+    opacity: 0.75;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
+}
+  
