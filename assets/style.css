@@ -34,7 +34,7 @@ header h1 {
     font-weight: bold;
     margin-left: 3.5%;
     padding: 10px 5% 10 5%;
-    font-size: 48px; 
+    font-size: 3vw; 
     color: #e2dde9;
     text-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
 }
@@ -107,7 +107,7 @@ footer a {
     background-size: cover;
     background-position: center;
     min-height: 300px;
-    padding: 1% 3%;
+    padding: 5vw;
     min-width: 90%;
     border-bottom: 4px;
     border-bottom-color: #708090;
@@ -225,6 +225,14 @@ footer a {
 .grid-item.devport {
   background-image: url(./images/webshot.jpg);
 }
+
+.grid-item.devport {
+  transition: all .2s ease-in-out;
+}
+
+.grid-item.devport:hover {
+  transform: scale(1.1);
+}
   
   .intro address {
     display: flex;
@@ -287,4 +295,63 @@ footer a {
 
   
 .transparent-header #header { background-color: rgba(255,255,255,0.7); }
+
+@media screen and (max-width: 980px) {
+  header {
+      padding: 0 0 10px 0;
+      justify-content: center;
+      text-align: center;
+  }
+
+  header h1 {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 10px;
+      font-size: 10vw;
+  }
+
+  header nav {
+      justify-content: center;
+  }
+
+  .intro > h2,
+  .intro > div {
+      flex: 0 0 100%;
+  }
+
+  .intro > h2 {
+      border-right: none;
+      border-bottom: 4px solid #708090;
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      text-align: center;
+      font-size: 7vw;
+  }
+
+  .hero {
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      text-align: center;
+      padding-left: 50px;
+  }
+}
+
+/* Max Width 768px*/
+@media screen and (max-width: 768px) {
+  .grid-item,
+  .grid-item:first-child {
+      grid-column: 1 / -1;
+  }
+
+  .grid-container {
+      grid-auto-rows: minmax(200px, 1fr);
+  }
+
+  .contact address {
+      flex-direction: column;
+      align-items: center;
+  }
+}
+
   
