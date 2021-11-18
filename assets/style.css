@@ -222,7 +222,7 @@ footer a {
   padding: 8px 10px;
 }
   
-.devport {
+.grid-item.devport {
   background-image: url(./images/webshot.jpg);
 }
   
