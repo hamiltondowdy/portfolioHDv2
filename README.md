@@ -11,6 +11,6 @@ This is a portfolio built to showcase my work and test my web-development skills
 
 # Portfolio Visual
 
-![My Execution] url(./assets/images/webshot.jpg).
+![My Execution] (https://github.com/hamiltondowdy/portfolioHDv2/blob/f4cbedd0b3db1c1fad48aa8de7060a5b6cda881b/assets/images/webshot.jpg)
 
 
