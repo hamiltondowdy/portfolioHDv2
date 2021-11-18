@@ -11,6 +11,6 @@ This is a portfolio built to showcase my work and test my web-development skills
 
 # Portfolio Visual
 
-![My Execution] (assets/images/webshot.jpg).
+![My Execution] url(./assets/images/webshot.jpg).
 
 
