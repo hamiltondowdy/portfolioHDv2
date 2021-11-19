@@ -42,8 +42,6 @@ header h1 {
 header h1:hover {
     color: #fff;
     text-shadow: 0 0 15px rgba(255, 255, 255, 3);
-    transform: scale(1.1);
-    transition: all .2s ease-in-out;
 }
 
 header a {
@@ -54,8 +52,6 @@ header a {
 header a:hover {
     color: #fff;
     text-shadow: 0 0 15px rgba(255, 255, 255, 3);
-    transform: scale(1.1);
-    transition: all .2s ease-in-out;
 }
   
 header nav {
@@ -114,13 +110,14 @@ footer a {
     padding: 5vw;
     min-width: 90%;
     border-bottom: 4px;
-    border-bottom-color: #708090;
+    border-bottom-color: #fff;
     border-bottom-width: relative;
 }
 
+
   
 .pfp:hover {
-    opacity: 0.3;
+    opacity: 0;
     box-shadow:5 5 15px#fff; 
 }
 
@@ -150,7 +147,7 @@ footer a {
     border-bottom: 4px solid #fff;
     font-size: 60px;
     opacity: 0.75;
-    text-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
+    text-shadow: 0 0 30px #fff;
 }
 
 h2:hover {
@@ -158,6 +155,8 @@ h2:hover {
   transform: scale(1.05);
   transition: all 2s ease-in-out;
 }
+
+
 
 .intro {
     margin: 25px 0;
