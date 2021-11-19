@@ -41,7 +41,9 @@ header h1 {
 
 header h1:hover {
     color: #fff;
-    text-shadow: 0 0 15px rgba(255, 255, 255, 3)
+    text-shadow: 0 0 15px rgba(255, 255, 255, 3);
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
 }
 
 header a {
@@ -51,7 +53,9 @@ header a {
 
 header a:hover {
     color: #fff;
-    text-shadow: 0 0 15px rgba(255, 255, 255, 3)
+    text-shadow: 0 0 15px rgba(255, 255, 255, 3);
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
 }
   
 header nav {
@@ -149,6 +153,12 @@ footer a {
     text-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
 }
 
+h2:hover {
+  color: #fff;
+  transform: scale(1.05);
+  transition: all 2s ease-in-out;
+}
+
 .intro {
     margin: 25px 0;
     padding: 10px 0;
@@ -196,7 +206,6 @@ footer a {
 
 .grid-item.devport:hover {
   text-shadow: #fff;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 3);
   border-radius: 15px;
   }
   
@@ -309,13 +318,16 @@ footer a {
 
     .flex-container-contact address:hover {
     text-shadow: #fff;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 3);
     border-radius: 15px;
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
     }
 
-    .flex-container-contact address:hover {
-      text-shadow: 0 0 15px #fff;
+    .flex-container-contact address {
+      border: 4px solid #fff;
+      border-radius: 15px;
       }
+
   
 .transparent-header #header { background-color: rgba(255,255,255,0.7); }
 
