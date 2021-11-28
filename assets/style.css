@@ -5,7 +5,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Abel', sans-serif;
     background-color: #e2dde9;
     background-size: cover;
 }
@@ -109,9 +109,6 @@ footer a {
     min-height: 300px;
     padding: 5vw;
     min-width: 90%;
-    border-bottom: 4px;
-    border-bottom-color: #fff;
-    border-bottom-width: relative;
 }
 
 
@@ -142,9 +139,9 @@ footer a {
 .hero h2 {
     align-items: right;
     position: relative;
-    margin: 0.5%;
+    margin: .5%;
+    padding: 4px;
     color: #fff;
-    border-bottom: 4px solid #fff;
     font-size: 60px;
     opacity: 0.75;
     text-shadow: 0 0 30px #fff;
@@ -152,8 +149,12 @@ footer a {
 
 h2:hover {
   color: #fff;
-  transform: scale(1.05);
-  transition: all 2s ease-in-out;
+  transform: scale(1.1);
+  transition: all 1s ease-in-out;
+  border-bottom: #fff 2px solid;
+  border-left: #fff 2px solid;
+  border-width: relative;
+  margin-left: 3px;
 }
 
 
