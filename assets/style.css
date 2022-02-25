@@ -147,18 +147,6 @@ footer a {
     text-shadow: 0 0 30px #fff;
 }
 
-h2:hover {
-  color: #fff;
-  transform: scale(1.1);
-  transition: all 1s ease-in-out;
-  border-bottom: #fff 2px solid;
-  border-left: #fff 2px solid;
-  border-width: relative;
-  margin-left: 3px;
-}
-
-
-
 .intro {
     margin: 25px 0;
     padding: 10px 0;
